@@ -34,12 +34,18 @@ Some _photos_ stay trapped in your phone's ```/media``` folder.
 Some _voice memos_ stay trapped in WhatsApp.
 Some _blog posts_ are scattered over 2 Jekyll installations and 1 FTP site somewhere.
 
-Everything must start or end, or be remembered on **Plato**.
-(in the case of content re-posted to silos, the content must certainly start on **Plato**)
+Everything wants to start or end, or be remembered on **Plato**.
+(in the case of content re-posted to silos, the content almost certainly wants to start on **Plato**)
 
 **Plato** - The aggregator for your digital life.
 
+Know where everything is.
+Know everything you've ever thought of.
+Know that all your precious memories are somewhere where you can find them.
+
 # Some quick technical thoughts
+
+**Plato** will be self-hosted.
 
 Assets will live on a file-system -- the simplest of databases. It is easy to browse with existing tools. It is easy to put together with existing tools, e.g. copy, drag-drop, rsync. It is easy to back up, e.g. right-click / create archive, or ```cp -R /plato /my/backups```.
 
@@ -114,7 +120,7 @@ A secure, authenticated web-based API that will accept **Forms** and related ass
 
 ## plato DB
 
-The filesystem where RAW assets live. Could potentially effect **render** via [inotify](https://en.wikipedia.org/wiki/Inotify)
+The filesystem where RAW assets live. Could potentially effect **render** via [inotify](https://en.wikipedia.org/wiki/Inotify). The DB can live near your web API in the cloud, or locally where your home NAS is already making backups to Amazon Glacier. It shouldn't matter - as long as the world can see your renditions.
 
 # Some things I believe in
 
