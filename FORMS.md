@@ -46,3 +46,10 @@
 - link to Cool Thing
 - no effort to create local rendition - I urge you to click!
 - screenshot? some things go away, sadly
+
+# project
+
+- "today I made a new thing"
+- "today I thought about doing a new thing, and here's an initial sketch"
+- I start a lot of things, and not neccessarily just on Github or BitBucket
+- and sometimes not necessarily using code
