@@ -18,6 +18,23 @@ And so on.
 
 (And because I feel a bit philosophical right now.)
 
+# I mean, why Plato-the-thing?
+
+We all create a lot of stuff. Memories, words, projects, photos, essays.
+
+Some _thoughts_ start in Evernote.
+Some _projects_ start on Github.
+Some _hacks_ start on your hard drive.
+Some _doodles_ start in one of your 5 empty Moleskines.
+Some _great ideas_ start on your mobile phone's note-taking app.
+
+Some _photos_ stay trapped in your phone's ```/media``` folder.
+Some _voice memos_ stay trapped in WhatsApp.
+Some _blog posts_ are scattered over 2 Jekyll installations and 1 FTP site somewhere.
+
+Everything must start or end, or be remembered on **Plato**.
+(in the case of content re-posted to silos, the content must certainly start on **Plato**)
+
 # Some quick technical thoughts
 
 Assets will live on a file-system -- the simplest of databases. It is easy to browse with existing tools. It is easy to put together with existing tools, e.g. copy, drag-drop, rsync. It is easy to back up, e.g. right-click / create archive, or ```cp -R /plato /my/backups```.
