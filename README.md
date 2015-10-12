@@ -32,9 +32,10 @@ Meta data could give more meaning to the basic components of a **Form** in the f
 
 # Inspirations
 
+* [jcs](https://jcs.org/)
 * [Huginn](https://github.com/cantino/huginn)
 * [IndieWeb projects](https://indiewebcamp.com/Projects)
-* [A previous experiment](https://github.com/uysio/vierkante) - Basically an experiment in rendering different things from an ElasticSearch cache
+* [A previous experiment](https://github.com/uysio/vierkante) - Basically an experiment in rendering different things from an ElasticSearch cache, and heavily inspired by [jcs](https://jcs.org/)
 
 # Architecture
 
