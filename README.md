@@ -16,6 +16,8 @@ A **photograph** comes in the shape "the image, optionally followed by some writ
 
 And so on.
 
+(And because I feel a bit philosophical right now.)
+
 # Some quick technical thoughts
 
 Assets will live on a file-system -- the simplest of databases. It is easy to browse with existing tools. It is easy to put together with existing tools, e.g. copy, drag-drop, rsync. It is easy to back up, e.g. right-click / create archive, or ```cp -R /plato /my/backups```.
