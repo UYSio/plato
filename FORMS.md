@@ -40,3 +40,9 @@
 - know when I've gone somewhere
 - not to brag, but as a conversation starter
 - preferably posted upon our return home (nice try, burglars!)
+
+# outbound
+
+- link to Cool Thing
+- no effort to create local rendition - I urge you to click!
+- screenshot? some things go away, sadly
