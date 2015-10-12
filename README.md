@@ -28,12 +28,16 @@ Some _hacks_ start on your hard drive.
 Some _doodles_ start in one of your 5 empty Moleskines.
 Some _great ideas_ start on your mobile phone's note-taking app.
 
+**That's fine - everything starts somewhere.** However...
+
 Some _photos_ stay trapped in your phone's ```/media``` folder.
 Some _voice memos_ stay trapped in WhatsApp.
 Some _blog posts_ are scattered over 2 Jekyll installations and 1 FTP site somewhere.
 
 Everything must start or end, or be remembered on **Plato**.
 (in the case of content re-posted to silos, the content must certainly start on **Plato**)
+
+**Plato** - The aggregator for your digital life.
 
 # Some quick technical thoughts
 
