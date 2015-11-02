@@ -1,8 +1,10 @@
 # Plato
 
-**Plato** is an [IndieWeb](https://indiewebcamp.com/why)-inspired web-based asset browser. My assets. My family's assets. (If you host your own **Plato** instance, then _your_ assets.)
+**Plato** turns the stuff on your hard drive into a website.
 
-Assets? Anything you want: the written word (long or short form), photos, voice memos, reviews (of book, film), quotes, and just about anything you can keep on a hard drive.
+Think of it as an [IndieWeb](https://indiewebcamp.com/why)-inspired web-based photo/video/everything  asset browser.
+
+The website will be generated on your hard drive, and from there you can FTP, upload to S3, or do whatever you feel like.
 
 # Why Plato?
 
