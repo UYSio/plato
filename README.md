@@ -123,12 +123,3 @@ A secure, authenticated web-based API that will accept **Forms** and related ass
 ## plato DB
 
 The filesystem where RAW assets live. Could potentially effect **render** via [inotify](https://en.wikipedia.org/wiki/Inotify). The DB can live near your web API in the cloud, or locally where your home NAS is already making backups to Amazon Glacier. It shouldn't matter - as long as the world can see your renditions.
-
-# Some things I believe in
-
-* Alan Kay is almost definitely always right
-* Simpler is better, but no simpler
-* Show, don't tell
-* Build upon what came before
-* [s-exppressions](https://en.wikipedia.org/wiki/S-expression) is the only way to program
-* Don't use [silos](https://en.wikipedia.org/wiki/Information_silo), unless it's your own silo
