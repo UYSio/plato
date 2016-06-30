@@ -1,12 +1,12 @@
-# Plato
+# ₽lato
 
-**Plato** turns the stuff on your hard drive into a website.
+**₽lato** turns the stuff on your hard drive into a website.
 
 Think of it as an [IndieWeb](https://indiewebcamp.com/why)-inspired web-based photo/video/everything  asset browser.
 
 The website will be generated on your hard drive, and from there you can FTP, upload to S3, or do whatever you feel like.
 
-# Why Plato?
+# Why ₽lato?
 
 Because of [Forms](https://en.wikipedia.org/wiki/Theory_of_Forms). Or "shapes", really.
 
@@ -20,7 +20,7 @@ And so on.
 
 (And because I feel a bit philosophical right now.)
 
-# I mean, why Plato-the-thing?
+# I mean, why ₽lato-the-thing?
 
 We all create a lot of stuff. Memories, words, projects, photos, essays.
 
@@ -36,10 +36,10 @@ Some _photos_ stay trapped in your phone's ```/media``` folder.
 Some _voice memos_ stay trapped in WhatsApp.
 Some _blog posts_ are scattered over 2 Jekyll installations and 1 FTP site somewhere.
 
-Everything wants to start or end, or be remembered on **Plato**.
-(in the case of content re-posted to silos, the content almost certainly wants to start on **Plato**)
+Everything wants to start or end, or be remembered on **₽lato**.
+(in the case of content re-posted to silos, the content almost certainly wants to start on **₽lato**)
 
-**Plato** - The aggregator for your digital life.
+**₽lato** - The aggregator for your digital life.
 
 Know where everything is.
 Know everything you've ever thought of.
@@ -47,13 +47,13 @@ Know that all your precious memories are somewhere where you can find them.
 
 # Some quick technical thoughts
 
-**Plato** will be self-hosted.
+**₽lato** will be self-hosted.
 
 Assets will live on a file-system -- the simplest of databases. It is easy to browse with existing tools. It is easy to put together with existing tools, e.g. copy, drag-drop, rsync. It is easy to back up, e.g. right-click / create archive, or ```cp -R /plato /my/backups```.
 
 Your assets might live remotely, so a web API with a window into your filesystem will suffice.
 
-The **Plato** viewer will be web-based. As such, **Forms** will be served to humans using HTML. Each **Form** can be customised to look a certain way, e.g. photographs at a high resolution front-and-center, with description underneath, possibly with cinema mode.
+The **₽lato** viewer will be web-based. As such, **Forms** will be served to humans using HTML. Each **Form** can be customised to look a certain way, e.g. photographs at a high resolution front-and-center, with description underneath, possibly with cinema mode.
 
 Assets will be discoverable. This could be path-based, or using some other meta data system.
 
@@ -120,6 +120,6 @@ Statically serves ```/plato-render/index.html``` and all children.
 
 A secure, authenticated web-based API that will accept **Forms** and related assets from your good self, either via a web frontend, a mobile app, Twilio, or some other service which is authorised to use it (like IFTTT or Zapier).
 
-## plato DB
+## ₽lato DB
 
 The filesystem where RAW assets live. Could potentially effect **render** via [inotify](https://en.wikipedia.org/wiki/Inotify). The DB can live near your web API in the cloud, or locally where your home NAS is already making backups to Amazon Glacier. It shouldn't matter - as long as the world can see your renditions.
